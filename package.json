@@ -1,10 +1,13 @@
 {
   "name": "sondaehyeon-portfolio",
   "version": "1.0.0",
+  "homepage": "https://ioloolo.github.io/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "bootstrap": "^5.3.2",
@@ -27,6 +30,7 @@
     "eslint-plugin-react-hooks": "^4.3.0",
     "prettier": "^3.0.1",
     "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-prettier": "^5.0.0"
+    "eslint-plugin-prettier": "^5.0.0",
+    "gh-pages": "^6.0.0"
   }
 }
